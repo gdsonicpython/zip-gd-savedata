@@ -1,9 +1,9 @@
 import os, time
 from datetime import datetime
 
-gdsavelocation = "C:\\Users\\cooper\\AppData\\Local\\GeometryDash"
-lastestfilelocation = "C:\\Users\\cooper\\AppData\\Local\\GeometryDash\\latestfile.txt"
-gdsavelocationold = "C:\\Users\\cooper\\AppData\\Local\\GeometryDash\\savedata.old"
+gdsavelocation = os.getcwd()+"\\AppData\\Local\\GeometryDash"
+lastestfilelocation = os.getcwd()+"\\AppData\\Local\\GeometryDash\\latestfile.txt"
+gdsavelocationold = os.getcwd()+"\\AppData\\Local\\GeometryDash\\savedata.old"
 
 os.chdir(gdsavelocation)
 
